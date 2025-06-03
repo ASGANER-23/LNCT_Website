@@ -1,4 +1,3 @@
-
 import { useEffect, useRef, useState } from 'react';
 
 interface UseInViewOptions {
@@ -7,9 +6,9 @@ interface UseInViewOptions {
   triggerOnce?: boolean;
 }
 
-export const useInView = (options: UseInViewOptions = {}) => {
+export const useInView = <T extends HTMLElement = HTMLDivElement>(options: UseInViewOptions = {}) => {
   const [isInView, setIsInView] = useState(false);
-  const ref = useRef<HTMLElement>(null);
+  const ref = useRef<T>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
