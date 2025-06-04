@@ -194,6 +194,7 @@ const InstitutesSection = () => {
           <Button
             size="lg"
             className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4"
+            onClick={() => window.location.href = '/institutes'}
           >
             View All Institutes
             <ExternalLink className="ml-2 w-5 h-5" />
