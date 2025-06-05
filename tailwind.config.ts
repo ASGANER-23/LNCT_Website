@@ -173,6 +173,14 @@ export default {
 						opacity: '1',
 						transform: 'scale(1)'
 					}
+				},
+				'scroll-infinite': {
+					'0%': {
+						transform: 'translateX(0)'
+					},
+					'100%': {
+						transform: 'translateX(-50%)'
+					}
 				}
 			},
 			animation: {
@@ -186,7 +194,8 @@ export default {
 				'gradient-shift': 'gradient-shift 8s ease-in-out infinite',
 				'fade-up': 'fade-up 0.8s ease-out',
 				'fade-down': 'fade-down 0.8s ease-out',
-				'zoom-in': 'zoom-in 0.7s ease-out'
+				'zoom-in': 'zoom-in 0.7s ease-out',
+				'scroll-infinite': 'scroll-infinite 10s linear infinite'
 			},
 			backgroundSize: {
 				'300%': '300%'

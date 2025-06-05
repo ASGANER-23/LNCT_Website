@@ -425,12 +425,10 @@ const Institutes = () => {
                         <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">
                           {institute.name}
                         </h3>
-
                         {/* Description */}
                         <p className="text-gray-600 mb-4 flex-grow">
                           {institute.description}
                         </p>
-
                         {/* Stats Grid */}
                         <div className="grid grid-cols-2 gap-4 mb-4">
                           <div className="text-center p-3 bg-gray-50 rounded-lg">
@@ -456,34 +454,48 @@ const Institutes = () => {
                             </div>
                           </div>
                         </div>
-
                         {/* Established */}
                         <div className="flex items-center text-sm text-gray-500 mb-4">
                           <Calendar className="w-4 h-4 mr-2" />
                           Established {institute.established}
                         </div>
+                        {/* Specialties with Infinite Scroll */}
+                        Add comment More actions
+                        <div className="mb-4 overflow-hidden">
+                          <div className="relative">
+                            <div className="flex animate-scroll-infinite whitespace-nowrap">
+                              {/* First set of specialties */}
 
-                        {/* Specialties */}
-                        <div className="mb-4">
-                          <div className="flex flex-wrap gap-2">
-                            {institute.specialties
-                              .slice(0, 6)
-                              .map((specialty, idx) => (
+                              {institute.specialties.map((specialty, idx) => (
                                 <span
-                                  key={idx}
-                                  className="px-2 py-1 bg-blue-100 text-blue-600 text-xs font-medium rounded-full"
+                                  key={`first-${idx}`}
+                                  className="px-2 py-1 bg-blue-100 text-blue-600 text-xs font-medium rounded-full mr-2 flex-shrink-0"
                                 >
                                   {specialty}
                                 </span>
                               ))}
-                            {institute.specialties.length > 6 && (
-                              <span className="px-2 py-1 bg-gray-100 text-gray-600 text-xs font-medium rounded-full">
-                                +{institute.specialties.length - 6} more
-                              </span>
-                            )}
+                              {institute.specialties.map((specialty, idx) => (
+                                <span
+                                  key={`first-${idx}`}
+                                  className="px-2 py-1 bg-blue-100 text-blue-600 text-xs font-medium rounded-full mr-2 flex-shrink-0"
+                                >
+                                  {specialty}
+                                </span>
+                              ))}
+
+                              {/* Duplicate set for seamless loop */}
+
+                              {institute.specialties.map((specialty, idx) => (
+                                <span
+                                  key={`second-${idx}`}
+                                  className="px-2 py-1 bg-blue-100 text-blue-600 text-xs font-medium rounded-full mr-2 flex-shrink-0"
+                                >
+                                  {specialty}
+                                </span>
+                              ))}
+                            </div>
                           </div>
                         </div>
-
                         {/* Learn More Button */}
                         <Button
                           variant="outline"
