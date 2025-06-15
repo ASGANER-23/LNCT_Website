@@ -12,7 +12,7 @@ const Header = () => {
     { name: 'Institutes', href: '/institutes' },
     { name: 'Companies', href: '/companies' },
     { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Contact', href: 'https://lnct.ac.in/contact/' },
   ];
 
   return (

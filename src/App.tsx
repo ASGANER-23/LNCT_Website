@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import Institutes from "./pages/Institutes";
 import Companies from "./pages/Companies";
 import About from "./pages/About";
+import { Contact } from "lucide-react";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/institutes" element={<Institutes />} />
           <Route path="/companies" element={<Companies />} />
           <Route path="/about" element={<About />} />
+          {/* <Route path="https://lnct.ac.in/contact/" element={<Contact />} /> */}
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

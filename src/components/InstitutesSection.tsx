@@ -119,7 +119,7 @@ const InstitutesSection = () => {
               <div
                 key={index}
                 ref={cardRef}
-                className={`transition-all duration-700 ${
+                className={`transition-all duration-700 h-full flex ${
                   cardInView
                     ? index % 2 === 0
                       ? "animate-slide-in"
@@ -128,7 +128,7 @@ const InstitutesSection = () => {
                 }`}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
-                <Card className="group hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 overflow-hidden">
+                <Card className="bg-white group hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 overflow-hidden flex flex-col h-full w-full">
                   {/* Institute Image */}
                   <div className="relative h-48 overflow-hidden">
                     <img
@@ -145,13 +145,13 @@ const InstitutesSection = () => {
                     </div>
                   </div>
 
-                  <CardContent className="p-6">
+                  <CardContent className="p-6 flex flex-col flex-grow">
                     {/* Institute Name */}
                     <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">
                       {institute.name}
                     </h3>
                     {/* Description */}
-                    <p className="text-gray-600 mb-4 line-clamp-3">
+                    <p className="text-gray-600 mb-4 line-clamp-3 flex-grow">
                       {institute.description}
                     </p>
                     {/* Stats */}
@@ -203,13 +203,13 @@ const InstitutesSection = () => {
                       </div>
                     </div>
                     {/* Learn More Button */}
-                    <Button
+                    {/* <Button
                       variant="outline"
                       className="w-full group-hover:bg-blue-600 group-hover:text-white group-hover:border-blue-600 transition-all duration-300"
                     >
                       Learn More
                       <ExternalLink className="ml-2 w-4 h-4" />
-                    </Button>
+                    </Button> */}
                   </CardContent>
                 </Card>
               </div>

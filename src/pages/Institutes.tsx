@@ -33,6 +33,7 @@ const Institutes = () => {
       established: "1994",
       specialties: ["Engineering", "Technology", "Innovation"],
       image: "/images/lnct-main-bhopal.jpg",
+      link: "https://lnct.ac.in/",
     },
     {
       name: "LNCT & Science",
@@ -43,6 +44,7 @@ const Institutes = () => {
       established: "2001",
       specialties: ["Science", "Technology", "Research"],
       image: "/images/lncts-bhopal.webp",
+      link: "https://lnct.ac.in/lnct-and-science/",
     },
     {
       name: "LNCT Excellence",
@@ -53,6 +55,7 @@ const Institutes = () => {
       established: "2007",
       specialties: ["Engineering", "Management"],
       image: "/images/lnct-e-bhopal.png",
+      link: "https://lnct.ac.in/lnct-excellence-college/",
     },
     {
       name: "LNCT MCA",
@@ -63,6 +66,7 @@ const Institutes = () => {
       established: "2009",
       specialties: ["Computer Applications", "Software Development"],
       image: "/images/lnct-mca-bhopal.jpg",
+      link: "https://lnct.ac.in/master-of-computer-application/",
     },
     {
       name: "LNCT University",
@@ -78,6 +82,7 @@ const Institutes = () => {
         "Research",
       ],
       image: "/images/lnct-university-bhopal.jpg",
+      link: "https://lnctu.ac.in/",
     },
     {
       name: "LNCT Pharmacy",
@@ -92,6 +97,7 @@ const Institutes = () => {
         "Clinical Pharmacy",
       ],
       image: "/images/lnct-pharmacy-bhopal.webp",
+      link: "https://lnct.ac.in/lnct-pharmacy/",
     },
     {
       name: "JNCT Bhopal",
@@ -102,6 +108,7 @@ const Institutes = () => {
       established: "2010",
       specialties: ["Polytechnic", "Engineering"],
       image: "/images/jnct-bhopal.JPG",
+      link: "https://www.jnctbhopal.ac.in/",
     },
     {
       name: "LNCT Vidhyapeeth University",
@@ -112,6 +119,7 @@ const Institutes = () => {
       established: "2021",
       specialties: ["Engineering", "Pharmacy", "Sciences", "Humanities"],
       image: "/images/lnct-vidyapeeth-indore.png",
+      link: "https://lnctvu.ac.in/",
     },
     {
       name: "Rishiraj College",
@@ -122,6 +130,7 @@ const Institutes = () => {
       established: "2005",
       specialties: ["Pharmacy", "Life Sciences"],
       image: "/images/rishiraj-college-bhopal.jpg",
+      link: "https://www.lnctrishiraj.ac.in/",
     },
     {
       name: "LNCT Jabalpur",
@@ -132,6 +141,7 @@ const Institutes = () => {
       established: "2018",
       specialties: ["Engineering", "Management"],
       image: "/images/lnct-jabalpur.jpg",
+      link: "https://lnctuj.com/",
     },
     {
       name: "CEC Bilaspur",
@@ -142,6 +152,7 @@ const Institutes = () => {
       established: "2002",
       specialties: ["Engineering", "Technology"],
       image: "/images/cec-bilaspur.jpeg",
+      link: "https://cecbilaspur.ac.in/",
     },
     {
       name: "LNCT Bhopal Indore Campus",
@@ -152,6 +163,7 @@ const Institutes = () => {
       established: "2015",
       specialties: ["Engineering", "Management"],
       image: "/images/lnct-bhopal-indore.png",
+      link: "https://lnct.ac.in/lnct-bpl-indore-campus/",
     },
     {
       name: "LNCT Indore",
@@ -162,6 +174,7 @@ const Institutes = () => {
       established: "2017",
       specialties: ["Engineering", "Technology"],
       image: "/images/lnct-indore.webp",
+      link: "https://lnctgroup.in/lnct-indore/",
     },
     {
       name: "LNCTS (RIT) Indore",
@@ -172,6 +185,7 @@ const Institutes = () => {
       established: "2016",
       specialties: ["Technology", "Innovation"],
       image: "/images/lncts-indore.avif",
+      link: "https://lnctgroup.in/lncts-indore/",
     },
     {
       name: "LNCP Indore",
@@ -182,6 +196,7 @@ const Institutes = () => {
       established: "2018",
       specialties: ["Pharmacy", "Healthcare"],
       image: "/images/lncp-indore.png",
+      link: "https://lnctgroup.in/lncp-indore/",
     },
     {
       name: "LNCPS Indore",
@@ -192,6 +207,7 @@ const Institutes = () => {
       established: "2019",
       specialties: ["Clinical Sciences", "Paramedical"],
       image: "/images/lncps-indore.jpg",
+      link: "https://lnctgroup.in/lncps-indore/",
     },
     {
       name: "JDCP Indore",
@@ -202,6 +218,7 @@ const Institutes = () => {
       established: "2020",
       specialties: ["Dentistry", "Oral Health"],
       image: "/images/jdcp-indore.webp",
+      link: "https://lnctgroup.in/jdcp-indore/",
     },
     {
       name: "JDCN Indore",
@@ -212,6 +229,7 @@ const Institutes = () => {
       established: "2021",
       specialties: ["Nursing", "Healthcare"],
       image: "/images/jdcn-indore.jpg",
+      link: "https://lnctgroup.in/jdcn-indore/",
     },
     {
       name: "NSHMC Bhopal",
@@ -222,6 +240,7 @@ const Institutes = () => {
       established: "2022",
       specialties: ["Homeopathy", "Medical Sciences"],
       image: "/images/nshmc-bhopal.webp",
+      link: "https://lnctgroup.in/nshmc-bhopal/",
     },
     {
       name: "LNCT Gwalior",
@@ -232,6 +251,7 @@ const Institutes = () => {
       established: "2009",
       specialties: ["Engineering", "Technology", "Pharmacy"],
       image: "/images/lnct-gwalior.jpg",
+      link: "https://lnctgroup.in/lnct-gwalior/",
     },
     {
       name: "LNCTS Gwalior (Diploma)",
@@ -242,6 +262,7 @@ const Institutes = () => {
       established: "2018",
       specialties: ["Diploma", "Polytechnic"],
       image: "/images/lncts-gwalior.webp",
+      link: "https://lnctgroup.in/lncts-gwalior/",
     },
     {
       name: "LNCM Gwalior",
@@ -251,6 +272,7 @@ const Institutes = () => {
       established: "2019",
       specialties: ["Management", "Finance"],
       image: "/images/lncm-gwalior.jpg",
+      link: "https://lnctgroup.in/lncm-gwalior/",
     },
     {
       name: "SITE Nathdwara",
@@ -261,6 +283,7 @@ const Institutes = () => {
       established: "2016",
       specialties: ["IT", "Engineering"],
       image: "/images/site-nathdwara.avif",
+      link: "https://shrinathjiinstitute.com/",
     },
     {
       name: "SIBM Nathdwara",
@@ -271,6 +294,7 @@ const Institutes = () => {
       established: "2017",
       specialties: ["Management", "Business Studies"],
       image: "/images/sibm-nathdwara.webp",
+      link: "https://www.shrinathjimanagement.com/",
     },
     {
       name: "SIP Nathdwara",
@@ -281,6 +305,7 @@ const Institutes = () => {
       established: "2018",
       specialties: ["Pharmacy"],
       image: "/images/sip-nathdwara.webp",
+      link: "https://www.shrinathjiinstituteofpharmacy.com/",
     },
     {
       name: "LNCT World School",
@@ -291,6 +316,7 @@ const Institutes = () => {
       established: "2014",
       specialties: ["Primary Education", "STEM", "Holistic Learning"],
       image: "/images/lnctworldschool-bhopal.webp",
+      link: "https://www.lnctworldschools.com/",
     },
   ];
 
@@ -355,7 +381,7 @@ const Institutes = () => {
                 placeholder="Search Institutes by name or location"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="pl-10 pr-4 py-3 w-full text-lg border-2 border-gray-200 focus:border-blue-500 rounded-xl shadow-sm"
+                className="bg-white placeholder:text-gray-500 pl-10 pr-4 py-3 w-full text-lg border-2 border-gray-200 focus:border-blue-500 rounded-xl shadow-sm"
               />
             </div>
           </div>
@@ -380,7 +406,7 @@ const Institutes = () => {
                   className="transition-all duration-700 animate-fade-up"
                   style={{ animationDelay: `${index * 150}ms` }}
                 >
-                  <Card className="group hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-1 border-0 overflow-hidden">
+                  <Card className="bg-white group hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-1 border-0 overflow-hidden">
                     <div className="flex flex-col lg:flex-row">
                       {/* Institute Image */}
                       <div className="relative overflow-hidden lg:w-full h-64 lg:h-auto">
@@ -499,7 +525,8 @@ const Institutes = () => {
                         {/* Learn More Button */}
                         <Button
                           variant="outline"
-                          className="w-full lg:w-auto group-hover:bg-blue-600 group-hover:text-white group-hover:border-blue-600 transition-all duration-300 mt-auto"
+                          className="bg-white w-full lg:w-auto group-hover:bg-blue-600 group-hover:text-white group-hover:border-blue-600 transition-all duration-300 mt-auto"
+                          onClick={() => {window.open(institute.link, '_blank')}}
                         >
                           Learn More
                           <ExternalLink className="ml-2 w-4 h-4" />
@@ -538,17 +565,19 @@ const Institutes = () => {
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8"
+                  onClick={() => {window.location.href='https://admissions.lnct.ac.in/'}}
                 >
                   Apply Now
                   <ExternalLink className="ml-2 w-5 h-5" />
                 </Button>
-                {/* <Button
+                <Button
                   size="lg"
                   variant="outline"
-                  className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8"
+                  className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 bg-white"
+                  onClick={() => window.location.href='https://lnct.ac.in/wp-content/uploads/2023/08/Updated-Placement-Brochure-2022-2023.pdf'}
                 >
                   Download Brochure
-                </Button> */}
+                </Button>
               </div>
             </div>
           </div>

@@ -13,19 +13,20 @@ const Footer = () => {
   ];
 
   const institutes = [
-    { name: 'LNCT University', href: '/institutes/university' },
-    { name: 'College of Engineering', href: '/institutes/engineering' },
-    { name: 'Business School', href: '/institutes/business' },
-    { name: 'Institute of Pharmacy', href: '/institutes/pharmacy' },
-    { name: 'Medical College', href: '/institutes/medical' },
-    { name: 'Institute of Technology', href: '/institutes/technology' },
+    { name: 'LNCT', href: 'https://lnct.ac.in' },
+    { name: 'LNCT & Science', href: 'https://lnct.ac.in/lnct-and-science/' },
+    { name: 'LNCT Excellence', href: 'https://lnct.ac.in/lnct-excellence-college/' },
+    { name: 'LNCT University', href: 'https://lnctu.ac.in/' },
+    { name: 'LNCT Pharmacy', href: 'https://lnct.ac.in/lnct-pharmacy/' },
+    // { name: '', href: '' },
   ];
 
   const companies = [
-    { name: 'LNCT Tech Solutions', href: '/companies/tech' },
-    { name: 'LNCT Healthcare', href: '/companies/healthcare' },
-    { name: 'LNCT Consulting', href: '/companies/consulting' },
-    { name: 'LNCT R&D', href: '/companies/research' },
+    { name: 'KLIC (Kalchuri LNCT Incubation Center)', href: 'https://lnct.ac.in/kalchuri-lnct-group-incubation-centre/' },
+    { name: 'AIIC (Anupam Innovation & Incubation Center)', href: 'https://aiic.lnctu.ac.in' },
+    { name: 'EDIIC (Entrepreneurship Development & Industry Interaction Cell)', href: 'https://ediic.lnctu.ac.in' },
+    { name: 'RISEJHANSI Incubation Centre', href: 'https://lnct.ac.in/risejhansi-incubation-centre/' },
+    { name: 'Jabalpur Incubation Center', href: 'https://www.jicjabalpur.org/' },
   ];
 
   return (
@@ -57,11 +58,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">+91 755 2740395</span>
+                <span className="text-gray-300"> 7440777111, 7201800001, 0755-6185350, 0755-6685400</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">info@lnctgroup.co.in</span>
+                <span className="text-gray-300">info@lnct.ac.in, admission@lnct.ac.in, Jobs@lnct.ac.in</span>
               </div>
             </div>
           </div>
@@ -117,7 +118,7 @@ const Footer = () => {
             </ul>
 
             {/* Social Media */}
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <h4 className="text-sm font-semibold mb-4 text-gray-400">Follow Us</h4>
               <div className="flex space-x-4">
                 <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors duration-300 group">
@@ -133,7 +134,7 @@ const Footer = () => {
                   <Youtube className="w-5 h-5 text-white group-hover:scale-110 transition-transform duration-300" />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

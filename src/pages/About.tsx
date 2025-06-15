@@ -33,7 +33,7 @@ const About = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             {/* About Description */}
-            <Card className="mb-12 animate-fade-up">
+            <Card className="mb-12 animate-fade-up bg-white">
               <CardHeader>
                 <CardTitle className="text-3xl text-gradient">Our Legacy</CardTitle>
                 <CardDescription className="text-lg">
@@ -64,21 +64,21 @@ const About = () => {
 
             {/* Statistics */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-              <Card className="text-center animate-scale-in">
+              <Card className="text-center animate-scale-in bg-white">
                 <CardContent className="pt-6">
                   <Users className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                   <div className="text-3xl font-bold text-gray-900 mb-2">50,000+</div>
                   <div className="text-gray-600">Students Graduated</div>
                 </CardContent>
               </Card>
-              <Card className="text-center animate-scale-in" style={{ animationDelay: '0.1s' }}>
+              <Card className="text-center animate-scale-in bg-white" style={{ animationDelay: '0.1s' }}>
                 <CardContent className="pt-6">
                   <Award className="w-12 h-12 text-purple-600 mx-auto mb-4" />
                   <div className="text-3xl font-bold text-gray-900 mb-2">25+</div>
                   <div className="text-gray-600">Years of Excellence</div>
                 </CardContent>
               </Card>
-              <Card className="text-center animate-scale-in" style={{ animationDelay: '0.2s' }}>
+              <Card className="text-center animate-scale-in bg-white" style={{ animationDelay: '0.2s' }}>
                 <CardContent className="pt-6">
                   <MapPin className="w-12 h-12 text-green-600 mx-auto mb-4" />
                   <div className="text-3xl font-bold text-gray-900 mb-2">10+</div>
@@ -88,7 +88,7 @@ const About = () => {
             </div>
 
             {/* Official Website Link */}
-            <Card className="text-center animate-fade-up">
+            <Card className="text-center animate-fade-up bg-white">
               <CardContent className="pt-8 pb-8">
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                   Learn More About Us
@@ -98,7 +98,7 @@ const About = () => {
                   admissions, faculty, and more.
                 </p>
                 <a 
-                  href="https://www.lnctgroup.co.in" 
+                  href="https://www.lnct.ac.in" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-block"
